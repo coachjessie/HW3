@@ -22,3 +22,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/videoplay', 'WebPagesController@videoplay');
+
+Route::get('/playlist', 'WebPagesController@playlist');
+
+
